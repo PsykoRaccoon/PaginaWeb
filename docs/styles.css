@@ -1,0 +1,108 @@
+/* Estilos Globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Contenedor */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #f1f1f1;
+}
+
+/* Sección Nosotros */
+.about {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Sección Propuestas */
+.proposals {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Sección Galería */
+.gallery {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #ddd;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/* Pie de Página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer .social-media a:hover {
+    color: #4CAF50;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
