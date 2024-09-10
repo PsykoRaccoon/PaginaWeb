@@ -19,7 +19,7 @@ body {
 
 /* Encabezado */
 .header {
-    background-color: #4CAF50;
+    background-color: #001f54;
     color: white;
     padding: 20px 0;
 }
@@ -54,13 +54,28 @@ body {
 .about {
     padding: 40px 0;
     background-color: #f9f9f9;
-    text-align: center;
+    text-align: right;
 }
 
 /* Sección Propuestas */
 .proposals {
     padding: 40px 0;
-    text-align: center;
+    text-align: left;
+}
+
+.valores{
+    padding: 40px 0;
+}
+
+.principios{
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.objetivos{
+    padding: 40px 0;
+    background-color: #f9f9f9;
 }
 
 /* Sección Galería */
