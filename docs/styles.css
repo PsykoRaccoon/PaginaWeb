@@ -19,7 +19,7 @@ body {
 
 /* Encabezado */
 .header {
-    background-color: #001f54;
+    background-color: #ff5d8f;
     color: white;
     padding: 20px 0;
 }
@@ -53,35 +53,37 @@ body {
 /* Sección Nosotros */
 .about {
     padding: 40px 0;
-    background-color: #f9f9f9;
-    text-align: right;
+    background-color: #fadde1;
+    text-align: left;
 }
 
 /* Sección Propuestas */
 .proposals {
     padding: 40px 0;
+    background-color: #ffc4d6;
     text-align: left;
 }
 
 .valores{
     padding: 40px 0;
+    background-color: #ffc4d6; /*Fuerte*/
 }
 
 .principios{
     padding: 40px 0;
-    background-color: #f9f9f9;
+    background-color: #fadde1; /*Clarito*/
     text-align: left;
 }
 
 .objetivos{
     padding: 40px 0;
-    background-color: #f9f9f9;
+    background-color: #fadde1; /*Clarito*/
 }
 
 /* Sección Galería */
 .gallery {
     padding: 40px 0;
-    background-color: #f9f9f9;
+    background-color: #ffc4d6; /*Fuerte*/
 }
 
 .gallery-grid {
@@ -98,7 +100,7 @@ body {
 
 /* Pie de Página */
 .footer {
-    background-color: #333;
+    background-color: #ff5d8f;
     color: white;
     text-align: center;
     padding: 20px 0;
